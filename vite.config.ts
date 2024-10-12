@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-
-// https://vitejs.dev/config/
+import eslint from 'vite-plugin-eslint'
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), eslint()]
 })
